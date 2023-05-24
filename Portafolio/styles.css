@@ -1,0 +1,95 @@
+/* Reset de estilos */
+body, h1, h2, h3, p, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.social-icon:hover {
+  color: #ccc;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.description {
+  width: 70%;
+}
+
+.education-container,
+.certificates-container {
+  display: flex;
+  align-items: center;
+}
+
+.education-image,
+.certificate-image {
+  width: 200px;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Estilos para efectos y animaciones */
+.social-icon {
+  transition: color 0.3s ease-in-out;
+}
+
+.certificate:hover .certificate-image {
+  transform: scale(1.1);
+}
